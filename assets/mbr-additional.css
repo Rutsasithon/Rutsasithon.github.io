@@ -45,6 +45,7 @@ body {
 .display-5 {
   font-family: 'Dosis', sans-serif;
   font-size: 1.4rem;
+  line-height: 1.5;
 }
 .display-5 > .mbr-iconfont {
   font-size: 2.24rem;
@@ -8884,7 +8885,7 @@ r .mbr-title {
   padding-right: .5rem;
 }
 .cid-qwp7CjbsKj {
-  background-image: url("https://sv1.picz.in.th/images/2019/06/05/1Y5cd8.jpg");
+  background-image: url("https://sv1.picz.in.th/images/2021/06/04/PGF8Jv.jpg");
 }
 .cid-qwp7CjbsKj .mbr-text,
 .cid-qwp7CjbsKj .typed-text,
@@ -8938,8 +8939,8 @@ r .mbr-title {
   }
 }
 .cid-qwp7uHgL4P {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 50px;
+  padding-bottom: 25px;
   background-color: #ffffff;
 }
 .cid-qwp7uHgL4P .mbr-iconfont {
@@ -8955,7 +8956,13 @@ r .mbr-title {
 }
 .cid-qwp7uHgL4P .underline .line {
   width: 3rem;
-  height: 2px;
+  height: 4px;
+  background: #444444;
+  display: inline-block;
+}
+.line {
+  width: 3rem;
+  height: 4px;
   background: #444444;
   display: inline-block;
 }
@@ -8986,12 +8993,24 @@ r .mbr-title {
   color: #ffbc00;
 }
 .cid-qwp7wgFXdC .stats-item {
-  padding: 80px 20px;
+  padding: 30px 20px;
+}
+.cid-qwp7wgFXdC .stats-item1:hover span {
+  color: #ffbc00;
+}
+.cid-qwp7wgFXdC .stats-item1 {
+  padding: 30px 20px;
+}
+.cid-qwp7wgFXdC .stats-item:nth-child(odd) {
+  background-color: #cccccc;
 }
 .cid-qwp7wgFXdC .stats-item:nth-child(2n) {
   background-color: #efefef;
 }
-.cid-qwp7wgFXdC .stats-item:nth-child(odd) {
+.cid-qwp7wgFXdC .stats-item1:nth-child(odd) {
+  background-color: #efefef;
+}
+.cid-qwp7wgFXdC .stats-item1:nth-child(2n) {
   background-color: #cccccc;
 }
 .cid-qwp7wgFXdC .stats-item > span {
@@ -9001,7 +9020,7 @@ r .mbr-title {
   font-size: 50px;
 }
 .cid-qwp7wgFXdC .heading {
-  margin: 20px 0;
+  margin: 20px 0 0;
   color: #232323;
 }
 .cid-qwp7wgFXdC .container {
@@ -9033,8 +9052,8 @@ r .mbr-title {
   color: #000000;
 }
 .cid-qwp7wri6cP {
-  padding-top: 150px;
-  padding-bottom: 90px;
+  padding-top: 80px;
+  padding-bottom: 40px;
   background-color: #ffffff;
 }
 .cid-qwp7wri6cP .subicon-title {
@@ -9053,7 +9072,7 @@ r .mbr-title {
 }
 .cid-qwp7wri6cP .underline .line {
   width: 3rem;
-  height: 2px;
+  height: 4px;
   background: #444444;
   display: inline-block;
 }
@@ -10453,6 +10472,9 @@ r .mbr-title {
 .cid-qwp89Bh7mX .mbr-list,
 .cid-qwp89Bh7mX .social-media ul {
   text-align: left;
+}
+.mgt-15 {
+  margin-top: -15px;
 }
 @media (max-width: 500px) {
   .cid-qwp89Bh7mX .wrap-block {
